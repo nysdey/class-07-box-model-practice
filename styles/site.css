@@ -16,15 +16,41 @@ blockquote {
   background-color: #eff0f5;
   border: 1px solid #cacaca;
   font-family: monospace;
+  padding: 1em 0.5em;
 }
 
 em {
   font-style: normal;
   background-color: #eff0f5;
   font-family: monospace;
+  padding: 0.25em;
 }
 
 p strong {
   color: #6094e0;
   border-left: 4px solid #165cdd;
 }
+
+nav menu {
+            margin: 0;
+            padding: 0;
+      }
+
+      /* 2. remove the bullets from the list items */
+
+      nav menu li {
+            list-style: none;
+      }
+
+      /* 3. make the links display as block; and add some spacing */
+
+      nav menu li a {
+            display: block;
+            padding: 10px;
+      }
+
+      /* 4. add a hover effect */
+
+      nav menu li a:hover {
+            background-color: red;
+      }
